@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('./fonts/OpenSans-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+  font-family: 'OpenSans-SemiBold2';
+  src: url('./fonts/OpenSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('./fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('./fonts/OpenSans-Light.ttf') format('truetype');
+  font-display: swap;
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+
+:root {
+  --font-OpenSans: 'OpenSans-Regular';
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-OpenSans);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */

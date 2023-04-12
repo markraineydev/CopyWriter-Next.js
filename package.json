@@ -1,0 +1,50 @@
+{
+  "name": "copyWriter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev4": "PORT=3004 next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "fb-deploy": "next build && next export && firebase deploy --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@heroicons/react": "^2.0.13",
+    "@reduxjs/toolkit": "^1.9.0",
+    "antd": "^5.0.1",
+    "axios": "^1.2.0",
+    "boring-avatars": "^1.7.0",
+    "chart.js": "^4.0.1",
+    "eslint": "^8.31.0",
+    "eslint-config-next": "13.0.4",
+    "firebase": "^9.14.0",
+    "intercom-client": "^4.0.0",
+    "javascript-time-ago": "^2.5.9",
+    "moment": "^2.29.4",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-canny": "^0.0.2",
+    "react-chartjs-2": "^5.0.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-helmet": "^6.1.0",
+    "react-intercom": "^1.0.15",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.4.3",
+    "react-time-ago": "^7.2.1",
+    "react-use-intercom": "^2.0.0",
+    "recharts": "^2.1.16",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.2"
+  }
+}
